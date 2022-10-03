@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vjezba</title>
+</head>
+<body>
+  <h1>Naslov 1</h1>
+  <h2>Naslov 2</h2>
+  <h3>Naslov 3</h3>
+  <br>
+  <p align="left">Paragraf lijevo</p> 
+  <p align="center">Paragraf centar</p> 
+  <p align="right">Paragraf desno</p> 
+  <!-- Ovo je komentar -->
+
+  <div>
+    <!-- Test div taga -->
+     <p align="left">Paragraf lijevo</p> 
+     <p align="center">Paragraf centar</p> 
+     <p align="right">Paragraf desno</p> 
+  </div>
+
+  <!-- LISTE -->
+  <!-- Numerisane liste - ol
+  Nenumerisane liste - ul -->
+  <!-- Pojedinacne stavke obije liste - li -->
+
+  <div style="background-color:red ;">
+    <ul type="circle">
+      <li>first item</li>
+      <li>second item</li>
+      <li>third item</li>
+    </ul>
+  </div>
+
+  <div style="background-color:blue ;">
+    <ol type="I" start="5" style="color:white ;">
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ol>
+  </div>
+
+  <div>
+     <dl>
+     <dt>Stavka 1</dt>
+     <dd>Opis stavke 1</dd>
+     <dt>Stavka 2</dt>
+     <dd>Opis stavke 2</dd>
+     </dl>
+  </div>
+
+  <h2>Dodavanje slike</h2>
+  <div>
+    <img src="./download.jpg" alt="Slika prirode">
+   <a href="https://www.google.com/" target="_blank">Kliknite za vise detalja o slici</a> 
+  </div>
+
+  <h2>Tabela</h2>
+
+  <table border="1">
+    <tr>
+      <td colspan="2">1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+    </tr>
+  </table>
+
+  <div>
+    <form action="" method="POST">
+      <p>Unesite ime</p>
+      <input type="text" name="ime" id="" placeholder="Ime">
+      <p>Unesite prezime</p>
+      <input type="text" name="prezime" id="" placeholder="Prezime">
+      <p>Unesite broj telefona</p>
+      <input type="text" name="broj_telefona" id="" placeholder="Telefon">
+      <p>Unesite email adresu</p>
+      <input type="email" name="email" id="" placeholder="Email">
+      <p>Unesite lozinku</p>
+      <input type="password" name="lozinka" id="" placeholder="Lozinka">
+
+      <p>Izaberite godine</p>
+      <input type="radio" id="godine1" name="godine" value="30">
+      <label for="godine1">0 - 30</label><br>
+      <input type="radio" id="godine2" name="godine" value="60">
+      <label for="godine2">31 - 60</label><br>  
+      <input type="radio" id="godine3" name="godine" value="100">
+      <label for="godine3">61 - 100</label><br><br>
+      <br><br>
+        <textarea name="komentar" id="komentar" cols="30" rows="10" placeholder="Dodaj komentar"></textarea>
+    <br>
+      <input type="button" value="Prijava" style="cursor:pointer ;">
+    </form>
+  </div>
+   <h2>Audio fajl</h2>
+  <audio controls>
+    <source src="./Audio/Starogradske pesme - Kafanske.mp3" type="audio/ogg">
+  </audio>
+  <p>Druga pjesma</p>
+  <br>
+  <audio  controls>
+    <source src="./Audio/Starogradske pesme - Kafanske.mp3" type="audio/ogg">
+  </audio>
+  <br>
+  <p>Video</p>
+  <video controls>
+    <source src="./Video/Y2Mate.is - 2 Second Video-TK4N5W22Gts-144p-1654900487874.mp4" type="video/mp4">
+  </video>
+     <form action="" method="get">
+        <!-- <input type="email" value="55">        -->
+        <input type="text" name="ime" id="" placeholder="Ime">
+        <input type="text" name="prezime" id="" placeholder="Prezime">
+        <input type="password" name="password" id="" placeholder="Password">
+
+
+        <input type="number" name="quantity" min="10" max="100" step="10" value="50">
+        <input type="color" name="clr" id="">
+        <input type="range" name="range" id="" min="0" max="10" step="1">
+        <input type="submit" value="Go">
+  
+     </form>
+
+     <figure>
+      <img src="./download.jpg" alt="Nature photo">
+      <figcaption>This is really cool photo 
+        <a href="https://www.google.com/" >Click here</a>
+      </figcaption>
+     </figure>
+     
+     <section> 
+      <h1>New section</h1>
+      <p>This is paragraph</p>
+     </section>
+</body>
+</html>
